@@ -3,7 +3,7 @@
 /**
  * main - The main Value
  *
- * Return: Always 
+ * Return: value
 */
 int main(void)
 {
