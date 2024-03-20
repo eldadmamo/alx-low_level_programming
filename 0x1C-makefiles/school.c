@@ -1,9 +1,9 @@
 #include "m.h"
 
 /**
- * print_school: Write
+ * print_school
  *
- * Return: Value
+ * Return: No value(Nothing)
 */
 void print_school(void)
 {
