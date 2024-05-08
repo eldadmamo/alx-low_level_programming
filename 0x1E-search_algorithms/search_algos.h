@@ -11,7 +11,7 @@
  * @index: Index node list
  * @next: Pointer next node
  *
- * Description: singly linked list structure
+ * Description: singly linked list node structure
  * for Holbert
  */
 typedef struct listint_s
@@ -22,14 +22,14 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct skiplist_s - Singly linked list
+ * struct skiplist_s - Singly linked list 
  *
  * @n: Integer
  * @index: Index node list
  * @next: Pointer next node
- * @express: Pointer next node lane
+ * @express: Pointer next node 
  *
- * Description: singly linked list node structure with an express lane
+ * Description: singly linked list node structure 
  * for Holbert
  */
 typedef struct skiplist_s
@@ -40,13 +40,13 @@ typedef struct skiplist_s
 	struct skiplist_s *express;
 } skiplist_t;
 
-int search_array(int *array, size_t size, int value);
-int sort_search(int *array, size_t size, int value);
-int jump_value(int *array, size_t size, int value);
-int interpolation_algorithm(int *array, size_t size, int value);
-int exponential_sort(int *array, size_t size, int value);
+int linear_search(int *array, size_t size, int value);
+int binary_search(int *array, size_t size, int value);
+int jump_search(int *array, size_t size, int value);
+int interpolation_search(int *array, size_t size, int value);
+int exponential_search(int *array, size_t size, int value);
 int advanced_binary(int *array, size_t size, int value);
-listint_t *jump_array(listint_t *list, size_t size, int value);
+listint_t *jump_list(listint_t *list, size_t size, int value);
 skiplist_t *linear_skip(skiplist_t *list, int value);
 
 #endif
