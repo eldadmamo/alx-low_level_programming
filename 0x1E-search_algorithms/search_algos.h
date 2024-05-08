@@ -20,16 +20,15 @@ typedef struct listint_s
 	size_t index;
 	struct listint_s *next;
 } listint_t;
-
 /**
- * struct skiplist_s - Singly linked list 
+ * struct skiplist_s - singly linked list
  *
  * @n: Integer
  * @index: Index node list
  * @next: Pointer next node
- * @express: Pointer next node 
+ * @express: Pointer to the next node in the express lane
  *
- * Description: singly linked list node structure 
+ * Description: singly linked list node structure
  * for Holbert
  */
 typedef struct skiplist_s
