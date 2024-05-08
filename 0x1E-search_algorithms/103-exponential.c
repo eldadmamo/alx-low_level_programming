@@ -44,8 +44,7 @@ int _binary_search(int *array, size_t left, size_t right, int value)
   *                      of integers using exponential search.
   * @array: A pointer first element array to search.
   * @size: The number elements array.
-  * @value: The value search 
-  *
+  * @value: value search 
   * Return: If the value is not present or array is NULL, -1.
   *         Otherwise, the index where value  located.
   *
